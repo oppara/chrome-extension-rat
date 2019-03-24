@@ -1,0 +1,28 @@
+{
+  "extends": "eslint:recommended",
+  "env": {
+    "chrome": true,
+    "node": true,
+    "browser": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2017
+  },
+  "rules": {
+    "no-useless-computed-key": "error",
+    "no-unused-vars": ["error", {
+        "vars": "all",
+        "args": "none"
+    }],
+    "comma-dangle": ["error", {
+      "arrays": "only-multiline",
+      "objects": "only-multiline",
+      "imports": "only-multiline",
+      "exports": "only-multiline",
+      "functions": "ignore"
+    }],
+    "semi": "error"
+  }
+}
