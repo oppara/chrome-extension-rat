@@ -1,7 +1,7 @@
 {
   "name": "Relaod All Tabs",
   "description": "This extension reload all tabs.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "permissions": [
     "tabs"
   ],
