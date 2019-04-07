@@ -1,8 +1,8 @@
 'use strict';
 
-chrome.browserAction.onClicked.addListener(function(tab) {
-  chrome.tabs.query({currentWindow: true}, function(tabs) {
-    tabs.forEach(function(tab){
+chrome.browserAction.onClicked.addListener((tab) => {
+  chrome.tabs.query({currentWindow: true}, (tabs) => {
+    tabs.forEach((tab) => {
       if (tab.url.indexOf('chrome://') === 0) {
         return;
       }
