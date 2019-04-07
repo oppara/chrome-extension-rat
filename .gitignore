@@ -84,3 +84,4 @@ typings/
 dist/
 !dist/.empty
 
+*.zip
